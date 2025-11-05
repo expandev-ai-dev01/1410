@@ -44,6 +44,14 @@ export const Footer = () => {
                   Contato
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/mapa-do-site"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Mapa do Site
+                </Link>
+              </li>
             </ul>
           </div>
           <div>

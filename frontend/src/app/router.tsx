@@ -11,6 +11,7 @@ const AboutPage = lazy(() => import('@/pages/About'));
 const ContactPage = lazy(() => import('@/pages/Contact'));
 const ReservationPage = lazy(() => import('@/pages/Reservation'));
 const EventsPage = lazy(() => import('@/pages/Events'));
+const SitemapPage = lazy(() => import('@/pages/Sitemap'));
 const NotFoundPage = lazy(() => import('@/pages/NotFound'));
 
 /**
@@ -32,6 +33,7 @@ export const AppRouter = () => {
           <Route path="contato" element={<ContactPage />} />
           <Route path="reserva" element={<ReservationPage />} />
           <Route path="eventos" element={<EventsPage />} />
+          <Route path="mapa-do-site" element={<SitemapPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
